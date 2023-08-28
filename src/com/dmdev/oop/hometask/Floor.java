@@ -1,7 +1,5 @@
 package com.dmdev.oop.hometask;
 
-import java.util.Arrays;
-
 public class Floor {
 
     private int numberFloor;
@@ -14,7 +12,7 @@ public class Floor {
 
     public void print() {
         System.out.println("Number floor: " + numberFloor + ", count flats: " + flats.length);
-        for (var floor: flats) {
+        for (var floor : flats) {
             floor.print();
         }
     }

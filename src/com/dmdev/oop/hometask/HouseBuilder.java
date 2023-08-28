@@ -10,10 +10,7 @@ public class HouseBuilder {
         House house = new House(2, new Floor[]{floor, floor1});
         printAllInformation(house);
     }
-
     public static void printAllInformation(House house) {
         house.print();
     }
 }
-
-
